@@ -8,8 +8,19 @@ João Paulo Neves da Costa
 
 ## Requirements:
 
-Pyspark instalado
 Projeto criado com pipenv, python 3.7.4, spark 2.4.5
+
+Execute os seguintes comandos, que contém apenas a instalação do pacote pyspark.
+```bash
+pipenv install
+pipenv run python case_spark.py
+```
+Se no seu ambiente já possui pyspark, então uma execução python simples já basta:
+
+```bash
+python case_spark.py
+```
+
 
 ## Purpose:
 
