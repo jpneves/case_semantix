@@ -44,10 +44,3 @@ class FileManager:
     def set_file(self, file):
         """Altera o valor do atributo file"""
         self.file = file
-
-    def parse_log_file(self, row, pattern):
-        """Procura por padrão em cada linha"""
-        match = re.match(pattern, row)
-        if match is None:
-            return (row, 'not match')
-        return (match.groups(), 'match')
